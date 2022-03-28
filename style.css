@@ -213,6 +213,16 @@ p {
   .menuBar p {
     margin: 0.4rem 0.3rem 0 0;
   }
-  
-
+  .phoneDesign{
+    display: none;
+  }
+}
+/* ******  PHONE DESIGN ******** */
+@media (min-width: 300px) {
+  .user__information,
+  .header,
+  .menuBar {
+    display: none;
+  }
+ 
 }
