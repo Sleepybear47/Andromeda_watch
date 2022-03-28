@@ -213,7 +213,7 @@ p {
   .menuBar p {
     margin: 0.4rem 0.3rem 0 0;
   }
-  .phoneDesign{
+  .phoneDesign {
     display: none;
   }
 }
@@ -224,5 +224,31 @@ p {
   .menuBar {
     display: none;
   }
- 
+  .phoneDesign__header {
+    margin-top: 1rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header__title h1 {
+    color: #a8741a;
+    font-weight: bolder;
+  }
+  .title_watch {
+    color: #ffff;
+    font-weight: normal;
+  }
+  .header__title {
+    margin-top: 3rem;
+  }
+  .contaner__phone {
+    margin: auto;
+    width: 98%;
+  }
+  .headerBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
 }
