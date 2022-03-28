@@ -160,7 +160,12 @@ p {
   .user__information,
   .leftSide__user,
   .rightSide__searchBox,
-  header {
+  .header,
+  .menuBar,
+  .menuBar__contactToUs,
+  .menuBar__aboutUs,
+  .menuBar__discount,
+  .menuBar__home {
     display: flex;
   }
   .header__leftSide {
@@ -168,7 +173,8 @@ p {
   }
   header {
     margin-top: 1rem;
-
+  }
+  .header {
     justify-content: space-between;
   }
   .user__information--picture img {
@@ -194,7 +200,19 @@ p {
     border-bottom: 1px solid white;
     width: 17rem;
     justify-content: end;
-	margin-right: .5rem;
+    margin-right: 0.5rem;
     margin-top: 1rem;
   }
+  /* *****  START SECTION MENU BAR  ******* */
+  .menuBar {
+    margin-top: 1rem;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+  }
+  .menuBar p {
+    margin: 0.4rem 0.3rem 0 0;
+  }
+  
+
 }
