@@ -5,7 +5,6 @@ author url: htps://rtl-theme.com
 version: 1.0
 */
 
-
 /* CSS RESET */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -13,51 +12,189 @@ version: 1.0
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 
 /* ***************************************************** */
 
+/* Start Section header */
 
+body {
+  background-color: #242424;
+  font-family: iranyekan;
+}
+svg {
+  color: #ffff;
+}
+p {
+  color: #ffff;
+}
+@media (min-width: 992px) {
+  .contaner {
+    width: 90%;
+    margin: auto;
+  }
+  .header__rightSide,
+  .user__information,
+  .leftSide__user,
+  .rightSide__searchBox,
+  header {
+    display: flex;
+  }
+  .header__leftSide {
+    width: max-content;
+  }
+  header {
+    margin-top: 1rem;
+
+    justify-content: space-between;
+  }
+  .user__information--picture img {
+    width: 7%;
+    border-radius: 25px;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+  }
+  .user__information,
+  .leftSide__user,
+  .header__rightSide {
+    width: max-content;
+    align-items: center;
+  }
+  .user__information {
+    margin-left: 1rem;
+    border-left: 1px solid white;
+  }
+  .searchBox__text p {
+    margin-top: 0.2rem;
+  }
+  .rightSide__searchBox {
+    border-bottom: 1px solid white;
+    width: 17rem;
+    justify-content: end;
+	margin-right: .5rem;
+    margin-top: 1rem;
+  }
+}
