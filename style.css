@@ -185,6 +185,47 @@ p {
     justify-content: space-between;
     align-items: end;
   }
+  .banerImage {
+    background-image: url(./img/image01.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 5rem;
+    position: relative;
+    margin-top: 1rem;
+  }
+  .banerImage__text {
+    position: absolute;
+    left: 5.5rem;
+    top: 1.7rem;
+  }
+  .banerImage__text p {
+    font-size: 0.5rem;
+  }
+  .text__textNumberOne {
+    margin-left: 5.4rem;
+  }
+  .text__textNumberTwo {
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+  }
+  .text__text__numberThere {
+    margin-top: 0.5rem;
+  }
+  .UnderBaner__text p {
+    font-size: 0.5rem;
+  }
+  .underBaner {
+    margin-top: 1rem;
+  }
+  .UnderBaner__text {
+    display: flex;
+    width: 68%;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
 }
 /* ******  MEDIA QUERY 576 PX  */
 @media (min-width: 576px) {
@@ -260,11 +301,7 @@ p {
   .phoneDesign {
     display: none;
   }
-  .banerImage {
-    background-image: url(./img/image01.jpg);
-    width: 100%;
-    height: auto;
-  }
+
   .banerImage {
     background-image: url(./img/image01.jpg);
     width: 100%;
