@@ -272,14 +272,18 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 3rem;
+    position: relative;
+  }
+  .banerImage__text {
     position: absolute;
+    left: 24rem;
   }
   .banerImage__text p {
     text-align: center;
     font-size: 1.5rem;
   }
   .text__textNumberOne p {
-    margin: 8rem 0 0 24rem;
+    margin: 7rem 0 0 24rem;
   }
   .text__textNumberTwo {
     margin: 3rem 0 0 7rem;
@@ -287,5 +291,16 @@ p {
   .text__text__numberThere {
     margin-top: 4rem;
     margin-right: 17rem;
+  }
+  .UnderBaner__text {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .underBaner {
+    width: 54%;
+    border: 1px solid aliceblue;
+    margin: auto;
+    margin-top: 2rem;
   }
 }
