@@ -151,6 +151,50 @@ svg {
 p {
   color: #ffff;
 }
+/* ******  PHONE DESIGN ******** */
+@media (min-width: 300px) {
+  .user__information,
+  .header,
+  .menuBar {
+    display: none;
+  }
+  .phoneDesign__header {
+    margin-top: 1rem;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header__title h1 {
+    color: #a8741a;
+    font-weight: bolder;
+  }
+  .title_watch {
+    color: #ffff;
+    font-weight: normal;
+  }
+  .header__title {
+    margin-top: 3rem;
+  }
+  .contaner__phone {
+    margin: auto;
+    width: 98%;
+  }
+  .headerBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+}
+/* ******  MEDIA QUERY 576 PX  */
+@media (min-width: 576px) {
+}
+
+/* ******  MEDIA QUERY 768 PX  */
+@media (min-width: 768px) {
+}
+
+/*  SECTION LAPTOP SCREEN */
 @media (min-width: 992px) {
   .contaner {
     width: 90%;
@@ -216,39 +260,32 @@ p {
   .phoneDesign {
     display: none;
   }
-}
-/* ******  PHONE DESIGN ******** */
-@media (min-width: 300px) {
-  .user__information,
-  .header,
-  .menuBar {
-    display: none;
+  .banerImage {
+    background-image: url(./img/image01.jpg);
+    width: 100%;
+    height: auto;
   }
-  .phoneDesign__header {
-    margin-top: 1rem;
-  }
-  .logo {
-    display: flex;
-    justify-content: center;
-  }
-  .header__title h1 {
-    color: #a8741a;
-    font-weight: bolder;
-  }
-  .title_watch {
-    color: #ffff;
-    font-weight: normal;
-  }
-  .header__title {
+  .banerImage {
+    background-image: url(./img/image01.jpg);
+    width: 100%;
+    height: 24rem;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 3rem;
+    position: absolute;
   }
-  .contaner__phone {
-    margin: auto;
-    width: 98%;
+  .banerImage__text p {
+    text-align: center;
+    font-size: 1.5rem;
   }
-  .headerBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+  .text__textNumberOne p {
+    margin: 8rem 0 0 24rem;
+  }
+  .text__textNumberTwo {
+    margin: 3rem 0 0 7rem;
+  }
+  .text__text__numberThere {
+    margin-top: 4rem;
+    margin-right: 17rem;
   }
 }
