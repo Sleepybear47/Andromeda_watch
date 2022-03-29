@@ -151,6 +151,13 @@ svg {
 p {
   color: #ffff;
 }
+a{
+  color: #ffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #a8741a;
+}
 /* ******  PHONE DESIGN ******** */
 @media (min-width: 300px) {
   .user__information,
@@ -295,7 +302,7 @@ p {
     justify-content: space-evenly;
     margin-right: 2rem;
   }
-  .menuBar p {
+  .menuBar a {
     margin: 0.4rem 0.3rem 0 0;
   }
   .phoneDesign {
@@ -334,10 +341,13 @@ p {
     justify-content: space-around;
     padding: 1rem;
   }
+  .UnderBaner__text p {
+    font-size: 1rem;
+  }
   .underBaner {
-    width: 54%;
-    border: 1px solid aliceblue;
+    width: 100%;
     margin: auto;
     margin-top: 2rem;
+    padding-bottom: 2rem;
   }
 }

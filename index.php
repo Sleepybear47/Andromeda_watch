@@ -23,21 +23,22 @@
 <div class="underBaner">
     <div class="UnderBaner__text">
         <div class="text__special">
-            <p>ویژه</p>
+        <a href="#">ویژه</a>
         </div>
         <div class="text__luxury">
-            <p>لوکس</p>
+        <a href="#">لوکس</a>
         </div>
         <div class="text__bestSeller">
-            <p>پر فروش</p>
+        <a href="#">پر فروش</a>
         </div>
         <div class="text__news">
-            <p>
-                جدیدترین
-            </p>
+            <a href="#">جدیدترین</a>
         </div>
     </div>
 </div>
+
+<!-- ******************  TEST   *********************** -->
+
 
 
 <?php get_footer(); ?>

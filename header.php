@@ -58,7 +58,7 @@
             <div class="menuBar">
                 <div class="menuBar__contactToUs">
                     <div class="contactToUs__text">
-                        <p>تماس با ما </p>
+                    <a href="#">تماس با ما</a>
                     </div>
                     <div class="contactToUs__svg">
                         <svg style="width:27px;height:27px;" viewBox="0 0 24 24">
@@ -68,9 +68,7 @@
                 </div>
                 <div class="menuBar__aboutUs">
                     <div class="aboutUs__text">
-                        <p>
-                            درباره ما
-                        </p>
+                    <a href="#">درباره ما</a>
                     </div>
                     <div class="aboutUs__svg">
                         <svg style="width:27px;height:27px;" viewBox="0 0 24 24">
@@ -80,9 +78,7 @@
                 </div>
                 <div class="menuBar__discount">
                     <div class="discount__text">
-                        <p>
-                            تخفیف
-                        </p>
+                    <a href="#">تخفیف</a>
                     </div>
                     <div class="discount__svg">
                         <svg style="width:27px;height:27px;" viewBox="0 0 24 24">
@@ -92,9 +88,7 @@
                 </div>
                 <div class="menuBar__home">
                     <div class="home__text">
-                        <p>
-                            خانه
-                        </p>
+                    <a href="#">خانه</a>
                     </div>
                     <div class="home__svg">
                         <svg style="width:27px;height:27px;" viewBox="0 0 24 24">
