@@ -49,10 +49,13 @@
             while ($category_posts->have_posts()) :
                 $category_posts->the_post();
         ?>
-                <div class="post__textSection">
-                    <div class='post-content'><?php the_content() ?></div>
-                    <!-- <h1><?php the_title() ?></h1> -->
+                <div class="post">
+                    <div class="post__textSection">
+                        <div class='post-content'><?php the_content() ?></div>
+                        <!-- <h1><?php the_title() ?></h1> -->
 
+
+                    </div>
                     <div class="post__underText">
                         <div class="underText__shareSvg">
                             <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -65,7 +68,8 @@
                             </svg>
                         </div>
                         <div class="underSvg__addToCart">
-                            <p>اضافه به سبد خرید </p>
+                            <a href="#">اضافه به سبد خرید </a>
+                
                         </div>
                     </div>
                 </div>

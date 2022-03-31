@@ -358,15 +358,18 @@ a:hover {
   }
   /* ***********  POST SECTION   *********** */
   .postSection {
-    width: 30%;
-    background-color: #2e2e2e;
-    border-radius: 9px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
   }
   .size-medium.wp-image-14.aligncenter {
-    width: 69%;
-    height: 69%;
-    margin-left: 3.5rem;
-    border-radius: 6px;
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem;
+    border-radius: 0;
+    margin-top: 1rem;
   }
   .post-content {
     padding: 2rem 0 1rem 0;
@@ -391,16 +394,15 @@ a:hover {
     padding: 0.2rem;
     margin-left: 1.3rem;
   }
-  .underSvg__addToCart {
-    border: 1px solid #a8741a;
-    width: max-content;
-    padding: 0.2rem;
+ 
+  .post {
+    width: 30%;
+    background-color: #2e2e2e;
   }
-  /* .post__underText {
+  .post__underText {
     display: flex;
     justify-content: center;
-  } */
-  /* .postSection{
-    display: flex;
-  } */
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
