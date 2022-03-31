@@ -305,6 +305,12 @@ a:hover {
   .menuBar a {
     margin: 0.4rem 0.3rem 0 0;
   }
+  .contactToUs__text,
+  .aboutUs__text,
+  .discount__text,
+  .home__text {
+    margin-top: 0.3rem;
+  }
   .phoneDesign {
     display: none;
   }
@@ -390,8 +396,11 @@ a:hover {
     width: max-content;
     padding: 0.2rem;
   }
-  .post__underText {
+  /* .post__underText {
     display: flex;
     justify-content: center;
-  }
+  } */
+  /* .postSection{
+    display: flex;
+  } */
 }
