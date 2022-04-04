@@ -158,6 +158,10 @@ a {
 a:hover {
   color: #a8741a;
 }
+.post__textOne,
+.post__textThere {
+  color: #a8741a;
+}
 /* ******  PHONE DESIGN ******** */
 @media (min-width: 300px) {
   .user__information,
@@ -232,6 +236,35 @@ a:hover {
     margin: auto;
     border: 1px solid white;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+  .postSection img {
+    width: 60%;
+    height: 60%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  .contaner {
+    width: 90%;
+    margin: auto;
+  }
+  .post {
+    background-color: #393838;
+    margin-top: 1rem;
+  }
+  .post__underText {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .post__textOne,
+  .post__textThere,
+  .post__textTwo {
+    text-align: center;
+  }
+  .postSection {
+    width: 90%;
+    margin: auto;
   }
 }
 /* ******  MEDIA QUERY 576 PX  */
@@ -365,10 +398,9 @@ a:hover {
     justify-content: center;
   }
   .size-medium.wp-image-14.aligncenter {
-    width: 300px;
-    height: 300px;
-    margin-left: 2rem;
-    border-radius: 0;
+    width: 60%;
+    height: 60%;
+    margin-left: 4rem;
     margin-top: 1rem;
   }
   .post-content {
@@ -391,18 +423,26 @@ a:hover {
   .underSvg__addToCart {
     border: 1px solid #a8741a;
     width: max-content;
-    padding: 0.2rem;
+    padding: 0.3rem;
     margin-left: 1.3rem;
+    border-radius: 2px;
   }
- 
+
   .post {
     width: 30%;
-    background-color: #2e2e2e;
+    background-color: #;
+    border-radius: 8px;
   }
   .post__underText {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .post-content img {
+    border-radius: 8px;
+  }
+  .size-medium.wp-image-14.aligncenter {
+    border-radius: 7px;
   }
 }
