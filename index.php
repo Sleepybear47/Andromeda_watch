@@ -89,3 +89,11 @@
 
 
 <!-- *******************   SECTION BANER 2   ******************** -->
+
+<div class="BanerSectionTwo">
+    <div class="banerSectionTwo__image"></div>
+    <div class="banerSectionTwo__text">
+        <p class="banerSectionTwo__text--textOne">با آندرومدا واچ </p>
+        <p class="banerSectionTwo__text--textTwo"> زمان در دستان شما تغیر میکند   </p>
+    </div>
+</div>

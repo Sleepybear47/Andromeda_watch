@@ -288,6 +288,26 @@ a:hover {
   .underSvg__addToCart {
     font-size: 0.7rem;
   }
+  .banerSectionTwo__image {
+    background-image: url(./img/image02.png);
+    width: 100%;
+    background-size: cover;
+    height: 6rem;
+  }
+  .BanerSectionTwo {
+    margin-top: 1rem;
+    position: relative;
+  }
+  .banerSectionTwo__text {
+    position: absolute;
+    top: 2rem;
+    left: 0.3rem;
+    font-size: 0.7rem;
+  }
+  .banerSectionTwo__text--textOne {
+    margin-bottom: 0.4rem;
+    margin-left: 6rem;
+  }
 }
 /* ******  MEDIA QUERY 576 PX  */
 @media (min-width: 576px) {
@@ -473,5 +493,25 @@ a:hover {
   }
   .underSvg__addToCart a {
     font-size: 1.1rem;
+  }
+  .BanerSectionTwo {
+    margin-top: 4rem;
+    position: relative;
+  }
+  .banerSectionTwo__image {
+    background-image: url(./img/image02.png);
+    width: 100%;
+    background-size: cover;
+    height: 25rem;
+  }
+  .banerSectionTwo__text {
+    position: absolute;
+    top: 11rem;
+    left: 9rem;
+    font-size: 2rem;
+  }
+  .banerSectionTwo__text--textOne {
+    margin-bottom: 3rem;
+    margin-left: 25rem;
   }
 }
