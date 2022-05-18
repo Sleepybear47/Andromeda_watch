@@ -173,6 +173,7 @@ a:hover {
 .rightSide__title--customerServices p {
   color: #a8741a;
   font-weight: bold;
+  font-size: 0.8rem;
 }
 .stayWithUs__svgSection {
   display: flex;
@@ -365,6 +366,9 @@ a:hover {
   .banerSectionTwo__text--textOne {
     margin-bottom: 0.4rem;
     margin-left: 6rem;
+  }
+  .stayWithUs__text p {
+    font-size: 0.8rem;
   }
 }
 /* ******  MEDIA QUERY 576 PX  */

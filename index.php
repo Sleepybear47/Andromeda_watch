@@ -37,7 +37,7 @@
     </div>
 </div>
 
-<!-- ******************  TEST   *********************** -->
+<!-- ******************  Post Section   *********************** -->
 <div class="contaner">
     <div class="postSection">
         <?php
